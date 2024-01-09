@@ -1,0 +1,222 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(36, 36, 82), rgb(34, 14, 17),black);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vmax;
+    
+}
+.log{
+    background-color: transparent;
+    margin: 30px;
+    display: flex;
+    color: yellowgreen;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 11.7%;
+    width: 13%;
+    padding: 1.3px;
+    position: absolute;
+    top: 70px;
+    margin-left: 10px;
+
+
+}
+.log h2{
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.log h3{
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    font-size: 40px;
+    
+}
+.header{
+     background-color: rgb(49, 99, 8);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.header ul{
+display: inline-flex;
+list-style: none;
+
+    
+}
+.header li a{
+    text-decoration: none;
+    margin: 30px;
+    font: optional;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(185, 218, 38);
+    
+
+}
+.header li a:hover{
+    color: white;
+   
+}
+.homecontainer h1{
+   text-align: center;
+   color: brown;
+   margin-top: 20px;
+}
+.homecontainer h1 .span1{
+   color: brown;
+   margin-right: 10px;
+   text-transform: uppercase;
+   
+}
+.homecontainer h1 .span2 {
+    color: rgb(214, 197, 38);
+    margin-right: 10px;
+
+}
+.homecontainer h1 .span3 {
+    color: rgb(122, 202, 18);
+
+}
+.p1{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 170px;
+
+    
+}
+ .p1 .span1 {
+    color: brown;
+    margin-right: 10px;
+    text-transform: uppercase;
+animation: workwell 3s ease-in 2s infinite alternate;
+}
+.p1 .span2 {
+    color: rgb(214, 197, 38);
+    margin-right: 10px;
+animation: workwell 4s ease-in 3s infinite alternate;
+}
+ .p1 .span3 {
+    color: rgb(122, 202, 18);
+    animation: workwell 5s ease-in 4s infinite alternate;
+}
+@keyframes workwell {
+    0%{
+       opacity: 0;
+       transform: translateX(0px);
+    }
+    25%{
+         opacity: 1;
+         transform: translateX(70px);
+    }
+    50%{
+        opacity: 1;
+            transform: translateX(70px);
+    }
+    75%{
+        opacity: 1;
+            transform: translateX(70px);
+    }
+    100%{
+        opacity: 1;
+            transform: translateX(70px);
+    }
+}
+.wel{
+    display: block;
+    color: white;
+    margin-bottom: 20px;
+    animation: workwell 2s ease-in 1s infinite alternate;
+}
+.servicecontainer{
+    background-color: rgb(122, 25, 74);
+    width: 40%;
+    height: 30vh;
+    margin: 50px;
+    text-align: center;
+    margin-left: 30pc;
+    
+}
+.serviceh1{
+    color: rgb(10, 10, 112);
+    margin: 10px;
+    font-weight: bold;
+    
+}
+.sp{
+    margin-top: 5px;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+.contactcontainer {
+    background-color: rgb(7, 107, 29);
+    width: 40%;
+    height: 30vh;
+    margin: 50px;
+    text-align: center;
+    margin-left: 30pc;
+
+}
+.contacth1 {
+    color: rgb(149, 163, 18);
+    margin: 10px;
+    font-weight: bold;
+
+}
+.Aboutcontainer {
+    background-color: rgb(43, 6, 129);
+    width: 40%;
+    height: 30vh;
+    margin: 50px;
+    text-align: center;
+    margin-left: 30pc;
+
+}
+
+.abouth1 {
+    color: rgb(197, 8, 8);
+    margin: 10px;
+    font-weight: bold;
+
+}
+footer{
+    background-color: rgb(62, 17, 104);
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+footer .bordercenter{
+   margin-left: 7px;
+   margin-top: 10px;
+   border: 8px solid  rgb(15, 77, 15);
+}
+video{
+    width: 30%;
+    height: 200px;
+
+}
+.videodev{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
